@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F6DC;
+        }
+        
+        img {
+          border-radius: 20px;
+    	  }
+      
+      	.pic-position {
+        	margin-top: -400px;
+        	margin-bottom: 10px;
+        	margin-left: 470px;
+     		 }
+      
+        nav {
+            background-color: #6A5D3E;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        nav a {
+            color: #F4F6DC;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 50px;
+            margin: 20px;
+            color: #fff; /* Text color for better contrast */
+          	font-size: 17px;
+            line-height: 1.5;
+        }
+
+        #section1 {
+            background-color: #B8BE86; /* green color */
+            border-radius: 20px;
+        }
+
+        #section2 {
+            background-color: #B8BE86; /* green color */
+          	border-radius: 20px;
+        }
+
+        #section3 {
+            background-color: #B8BE86; /* green color */
+          	border-radius: 20px;
+        }
+
+        #section4 {
+            background-color: #B8BE86; /* green color */
+          	border-radius: 20px
+      	}
+      
+      	.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    
+    </style>
+</head>
+<body>
+
+<nav>
+  <a href="#section1"><strong><u>About Me</u></strong></a>
+  <a href="#section2"><strong><u>Hobbies</u></strong></a>
+  <a href="#section3"><strong><u>Education</u></strong></a>
+  <a href="#section4"><strong><u>Future Goals</u></strong></a>
+</nav>
+
+<section id="section1">
+    <h2>ABOUT ME</h2>
+    <p><br>Hello and welcome to my digital space!<br>
+      <br>I'm Sakeena Naeem, a passionate student currently<br>navigating the stimulating academic waters at<br>the University of Waterloo. 
+      Currently immersed in my second<br>year, I've chosen to pursue my educational journey through<br>the captivating realm of Global Business and Digital Arts.<br>
+      <br>This website serves as a window into my world, offering you<br>a glimpse into the facets of my life and the tapestry of my<br>interests. 
+      Here, I'll be sharing my experiences, achievements,<br>and the creative endeavors that define my unique journey. <br>
+      <br>Join me as I weave together the threads of academia,<br> personal growth, and the ever-evolving landscape of <br>global business and digital arts.<br>
+      <br><img src="img_aboutme2.jpg" alt="picofme" width="300" height="365" class="pic-position">
+</p>
+</section>
+
+<section id="section2">
+    <h2>Hobbies</h2>
+  <div class="row">
+    <img src=
+    
+  </div>
+    <p>This is the content of Section 2.</p>
+</section>
+
+<section id="section3">
+    <h2>Education</h2>
+    <p>This is the content of Section 3.</p>
+</section>
+
+<section id="section4">
+    <h2>Future Goals</h2>
+    <p>This is the content of Section 4.</p>
+</section>
+
+</body>
+</html>
